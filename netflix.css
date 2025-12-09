@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-size: 13px; */
+    backdrop-filter: blur(1px);
+    
+}
+
+#parent{
+
+    background-image: url('198b2f01e73b905772279616eccc7c65.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* bottom: 0;
+    right: 0; */
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    /* box-shadow: inset 0 0 180px rgba(0, 0, 0, 1); */
+    z-index: 1;
+}
+
+.logo{
+    position:absolute;
+    bottom: 80%;
+    /* top: 60px; */
+    left: 80px;
+    z-index: 2;
+    /* margin-bottom: 20px; */
+}  
+
+.logo img{
+    width: 160px;
+    /* height: 150px; */
+    /* justify-content: start; */
+     /* align-items: start; */
+}
+
+.or{
+    display: flex;
+    justify-content: center;    
+}
+
+.login-box{
+    /* border-color: black rgba(0, 0, 0, 0.752); */
+      /* background: linear-gradient(135deg,#000,#660000); */
+      /* background: linear-gradient(135deg,#000000 0%, */
+      /* #1a0000 40%,#660000 100%); */
+    /* background: linear-gradient(to right,black,red); */
+     /* background: linear-gradient(to left,black,red); */
+     /* background: radial-gradient(circle at center,#660000 0%,#000000 80%); */
+     /* background: linear-gradient(to bottom,#000000 0%, 
+     #1a0000 40%, #330000 60%, #ff0000 100%); */
+    /* background: linear-gradient(to bottom,#000000 0%,#000000 40%,#ff0000 60%,#ff0000 100%); */
+    background: linear-gradient(135deg,#000000 20%,#1a0000 50%,#ff0000 100%);
+    /* background: rgba(0, 0, 0, 0.687); */
+    /* background-color: rgba(0, 0, 0, 0.377); */
+    /* background-color: rgba(0, 0, 0, 0.75); */
+   width: 360px;
+   position: relative;
+   padding: 50px;
+   border-radius: 8px;
+   padding-bottom: 150px;
+    /* height: 100vh; */
+     
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   /* margin: auto; */
+   z-index: 2;
+   color: white;
+   height: 600px;
+}
+
+.login-box input{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+
+    background: rgba(51,51,51,0.8);
+    border: none;
+    outline: none;
+    color: white;
+}
+ 
+.login-box h1{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.login-box input::placeholder{
+    /* opacity: 0.9; */
+    /* background: linear-gradient(135deg,#000,#660000); */
+    /* height: auto; */
+    /* width: 100%;
+    border-radius: 5px; */
+    color:#b3b3b3;
+      /* z-index: 11; */
+}
+/* 
+#he{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: rgba(135, 85, 85, 0.387); */
+    /* margin: auto; */
+/* 
+}
+
+.netflix-form input{
+    width: 100%;
+    border: none;
+    outline: none;
+} */
+
+.login-btn{
+     width:100%;
+     margin-bottom: 15px;
+     padding:14px;
+     background: #e50914;
+     color:white;
+     border: none;
+     border-radius:2px;
+     font-size: 16px;
+     font-weight: bold;
+     border-radius: 4px; 
+     cursor: pointer
+    
+     
+ }
+
+ .login-btn:hover{
+    background: #f6121d;
+ }
+
+ 
+
+.f-p{
+    display: block;
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    background-repeat: 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.checkbox{
+    position: relative;
+    /* margin-top: 10px; */
+}
+
+.checkbox label{
+    /* position: absolute; */
+    margin-left: 20px;
+   
+    color: #fff;
+    /* margin-left: 10px; */
+}
+.checkbox input{
+    background-color: rgba(59, 59, 59, 0.387);
+    position: absolute;
+    top: 2px;
+    right: 122px;
+
+}
+
+
+/* .remember-me{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+} */
+
+/* #rm{
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    
+} */
+
+/* .remember-me input{
+    margin-right: 8px;
+} */
+
+.signup{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup a{
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ /* .checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+ }
+
+ .checkbox .left{
+    display: flex;
+    align-items: center;
+    
+    font-size: 13px;
+    margin-bottom: 15px;
+ }
+
+ .right{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .right p{
+     margin-top: 10px;
+     margin-bottom: 5px;
+}
+
+.right a{
+    text-decoration: none;
+}
+ */
+
+
+ /* .remember-box{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 12px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+ }
+
+ .remember-box input{
+    width: 18px;
+    height: 18px;
+ }
+
+ .remember-box label{
+    color: #b3b3b3;
+    font-size: 14px;
+ }
+
+.remember-forgot a{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.signup a{
+   color: white;
+   text-decoration: none;
+} */
+
+@media(max-width:480px){
+    .login-box{
+        width: 90%;
+        padding: 25px 20px;
+        margin-top: 70px;
+    }
+    .logo img{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    input,button{
+        width:100%;
+        font-size: 16px;
+        padding: 12px 14px;
+    }
+    .remember{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+}
+
+
+
+
+
+
+ /* @media (max-width: 1400px) {
+    .container{
+        padding: 50px;
+        margin: 80px auto;
+    }
+ }
+
+ @media (max-width: 1200px) {
+    .container{
+        padding:60px ;
+        margin: 100px auto;
+    }
+ }
+
+ @media (max-width: 992px) {
+    .container{
+        padding: 35px;
+        margin: 60px auto;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .container{
+        padding: 25px;
+        margin: 40px auto;
+    }
+ }
+
+ @media (max-width: 576px) {
+    .container{
+        padding: 20px;
+        margin: 30px auto;
+    }
+ }
+
+ @media (max-width: 480px) {
+    .container{ 
+        padding: 18px;
+        margin: 25px auto;
+    }
+ } */
+
+
+ 
+ 
+
+
+
